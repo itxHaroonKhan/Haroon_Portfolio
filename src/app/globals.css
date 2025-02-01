@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply text-white bg-black; /* Text color aur background color apply karein */
+  }
+}
+
+@layer components {
+  .menuLink {
+    @apply cursor-pointer hover:text-blue-500; /* Cursor aur hover effect apply karein */
+  }
+}
+@layer components {
+  .menuLink{
+    @apply cursor-pointer hover:text-[#c5c5c5]
+  }
+}
+
+
+
+
+
+
+.heding {
+  letter-spacing: 2px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border-right: 2px solid;
+  width: 100%;
+    
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 2s steps(10) infinite alternate; /* Adjusted steps for 'bana' and 'ho' */
+
+}
+
+@keyframes cursor {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@keyframes typing {
+  0% {
+    width: 0; /* Starting point */
+  }
+  25% {
+    width: 50%; /* Midway for 'bana' */
+  }
+  50% {
+    content: "bana"; /* First word */
+  }
+  75% {
+    width: 100%; /* Complete width for 'bana' */
+  }
+  100% {
+    content: "ho"; /* Second word */
+  }
+}
+
+.hii {
+  display: inline-block;
+}
