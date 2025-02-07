@@ -9,7 +9,6 @@ const SkillsPage = () => {
     'React.js',
     'Next.js',
     'Tailwind',
-    'Node.js',
     'Sanity CMS',
     'MS Office',
     'Basic Computer',
