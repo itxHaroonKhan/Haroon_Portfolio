@@ -5,7 +5,7 @@ const projects = [
   { id: 1, title: "Project 1", imageUrl: "/img/Screenshot 2025-01-31 232806.png", projectLink: "https://blog-pages-gules.vercel.app/" },
   { id: 2, title: "Project 2", imageUrl: "/img/Screenshot 2025-01-31 232920.png", projectLink: "https://hackathon-milestone-3-steel-three.vercel.app/" },
   { id: 3, title: "Project 3", imageUrl: "/img/Screenshot 2025-01-31 233204.png", projectLink: "https://api-data-fetcher-murex.vercel.app/" },
-  { id: 4, title: "Project 4", imageUrl: "/img/Screenshot 2025-01-31 233308.png", projectLink: "https://day-5-drab.vercel.app/" },
+  { id: 4, title: "Project 4", imageUrl: "/img/Screenshot 2025-01-31 233308.png", projectLink: "https://day-5-xi.vercel.app/" },
   { id: 5, title: "Project 5", imageUrl: "/img/Screenshot 2025-01-31 233548.png", projectLink: "https://api-asingment.vercel.app/" },
   { id: 6, title: "Project 6", imageUrl: "/img/Screenshot 2025-01-31 233740.png", projectLink: "https://next-js-004.vercel.app/" },
   { id: 7, title: "Project 7", imageUrl: "/img/Screenshot 2025-01-31 233845.png", projectLink: "https://hacathon-milestone-vert.vercel.app/" },
