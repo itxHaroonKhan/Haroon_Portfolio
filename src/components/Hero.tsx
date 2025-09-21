@@ -63,7 +63,7 @@ export const Hero = () => {
         >
           <div className="relative w-[250px] sm:w-[300px] md:w-[400px] h-[250px] sm:h-[300px] md:h-[500px]">
             <Image
-              src="/img/1.jpg"
+              src="/img/2.jpg"
               alt="Hero Image"
               width={600} // Image width
               height={400} // Image height
@@ -77,4 +77,5 @@ export const Hero = () => {
 };
 
 export default Hero;
+
 
